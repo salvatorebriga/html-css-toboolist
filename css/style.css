@@ -1,5 +1,8 @@
+/*header css*/
+
 header{
     padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 30px;
 }
 
@@ -15,6 +18,54 @@ h1{
     padding-left: 10px;
     font-family: "Pixelify Sans", sans-serif;
     font-size: 60px
+}
+
+/*main css*/
+
+main{
+    background-color: rgba(246,248,249,255);
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.button_container{
+    height: 70px;
+    padding: 20px;
+    padding-left: 50px;
+    border-bottom: 5px solid rgba(246,248,249,255);
+}
+
+.add_task{
+    background-color: rgba(71,173,241,255);
+    color: white;
+    border-radius: 7%;
+    border: none;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.add_section{
+    border-radius: 7%;
+    background-color: rgba(255, 255, 255, 0);
+    color: gray;
+    border: 0.1px solid #d4d8dc;
+    padding: 10px;
+    margin-left:  10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list_container{
+    height: 600px;
+    border-radius: 1%;
 }
   
 
