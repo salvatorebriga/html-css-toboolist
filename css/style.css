@@ -35,6 +35,8 @@ main{
     border-radius: 1%;
 }
 
+/*button*/
+
 .button_container{
     height: 70px;
     padding: 20px;
@@ -63,6 +65,8 @@ main{
     padding-right: 15px;
 }
 
+/*list*/
+
 .list_container{
     border-radius: 1%;
     padding: 50px;
@@ -77,10 +81,6 @@ main{
 
 }
 
-.triangle::after{
-    content: '\23F7';
-}
-
 .sub_list{
     margin-top: 20px;
     font-size: 25px;
@@ -89,6 +89,12 @@ main{
     margin-bottom: 40px;
     vertical-align: middle;
     line-height: 2.5;
+}
+
+/*feature*/
+
+.triangle::after{
+    content: '\23F7';
 }
 
 .green_checkmark::after{
@@ -152,8 +158,31 @@ main{
     vertical-align: middle;
     content: "Mobile";
 }
+
+.website::after{
+    border-radius:5%;
+    background-color:#d863a1;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    vertical-align: middle;
+    content: "website";
+}
+
+.sales::after{
+    border-radius:5%;
+    background-color: #b0c926;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    vertical-align: middle;
+    content: "sales";
+}
+
+
   
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
