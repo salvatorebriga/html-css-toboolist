@@ -1,3 +1,23 @@
+header{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+header > img{
+    vertical-align: middle;
+    width: 80px;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+    padding-left: 10px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 60px
+}
+  
+
 *{
     box-sizing: border-box;
     margin: 0;
