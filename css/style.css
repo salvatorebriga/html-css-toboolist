@@ -47,7 +47,7 @@ main{
 .add_task{
     background-color: rgba(71,173,241,255);
     color: white;
-    border-radius: 7%;
+    border-radius: 10px;
     border: none;
     padding: 10px;
     padding-left: 15px;
@@ -55,7 +55,7 @@ main{
 }
 
 .add_section{
-    border-radius: 7%;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0);
     color: gray;
     border: 0.1px solid #d4d8dc;
@@ -120,7 +120,7 @@ main{
 }
 
 .editorial::after{
-    border-radius:5%;
+    border-radius:10px;
     background-color: #45abea;
     color: white;
     font-size: large;
@@ -130,7 +130,7 @@ main{
 }
 
 .q1_goals::after{
-    border-radius:5%;
+    border-radius:10px;
     background-color: #9c72e4;
     color: white;
     font-size: large;
@@ -140,7 +140,7 @@ main{
 }
 
 .recruiting::after{
-    border-radius:5%;
+    border-radius:10px;
     background-color:#64c0a9;
     color: white;
     font-size: large;
@@ -150,7 +150,7 @@ main{
 }
 
 .mobile::after{
-    border-radius:5%;
+    border-radius:10px;
     background-color:#f29e33;
     color: white;
     font-size: large;
@@ -160,7 +160,7 @@ main{
 }
 
 .website::after{
-    border-radius:5%;
+    border-radius:10px;
     background-color:#d863a1;
     color: white;
     font-size: large;
@@ -170,7 +170,7 @@ main{
 }
 
 .sales::after{
-    border-radius:5%;
+    border-radius:10px;
     background-color: #b0c926;
     color: white;
     font-size: large;
