@@ -64,7 +64,6 @@ main{
 }
 
 .list_container{
-    height: 600px;
     border-radius: 1%;
     padding: 50px;
 }
@@ -74,18 +73,25 @@ main{
     font-size: 30px;
     font-weight: 600;
     list-style-type: none;
+    columns: 1;
+
+}
+
+.triangle::after{
+    content: '\23F7';
 }
 
 .sub_list{
     margin-top: 20px;
-    font-size: 30px;
-    font-weight: lighter;
+    font-size: 25px;
+    font-weight: bold;
     list-style-type:none;
     margin-bottom: 40px;
     vertical-align: middle;
+    line-height: 2.5;
 }
 
-.green_checkmark{
+.green_checkmark::after{
     border: 2px solid #65c2ac;
     border-radius: 50%;
     font-size: 10px;
@@ -93,15 +99,58 @@ main{
     padding: 5px;
     color: #65c2ac;
     vertical-align: middle;
+    content: '\2713';
 }
 
-.editorial{
+.red_cross::after{
+    border: 2px solid #e73b33;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 1000;
+    padding: 5px;
+    color: #e73b33;
+    vertical-align: middle;
+    content: '\2718';
+}
+
+.editorial::after{
     border-radius:5%;
     background-color: #45abea;
     color: white;
     font-size: large;
     padding: 10px;
     vertical-align: middle;
+    content: "Editorial";
+}
+
+.q1_goals::after{
+    border-radius:5%;
+    background-color: #9c72e4;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    vertical-align: middle;
+    content: "Q1 Goals";
+}
+
+.recruiting::after{
+    border-radius:5%;
+    background-color:#64c0a9;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    vertical-align: middle;
+    content: "Recruiting";
+}
+
+.mobile::after{
+    border-radius:5%;
+    background-color:#f29e33;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    vertical-align: middle;
+    content: "Mobile";
 }
   
 *{
